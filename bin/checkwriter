@@ -1,0 +1,25 @@
+#!/usr/bin/env raku
+
+use JSON::Hjson;
+use PDF::Lite;
+use Text::Utils;
+use PDF::Font::Loader;
+
+if !@*ARGS.elems {
+    say qq:to/HERE/;
+        Usage: {$*PROGRAM.basename} ...
+    HERE
+    exit;
+
+}
+
+for @*ARGS {
+}
+
+### subroutines ###
+sub read-inputs(:$debug) is export {
+    
+}
+
+
+
