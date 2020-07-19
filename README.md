@@ -1,11 +1,17 @@
+[![Build Status](https://travis-ci.com/tbrowder/CheckWriter.svg?branch=master)](https://travis-ci.com/tbrowder/CheckWriter)
+
 # CheckWriter
 
-Using templates in the format of the check (*.chk) files of [GnuCash](https://gnucash.org),
+Using Hjson templates similar to the format of the check (*.chk) files of [GnuCash](https://gnucash.org),
 this module and its binary allows the user to print checks on standard sizes of paper.
 
-The default is to print a single check on Office Depot's single-check paper (US Letter size)
-using the provided check template file. The font used is the ? which is the standard
-expected for the US, Canada, ...?
+The default is to print a single check on Office Depot's single-check
+paper (US Letter size) using the provided check template file. The
+font used is the *E-13B, Common Machine Language font* in a free (includes commercial use)
+implementation called the *MICR Encoding Font* provided by
+**[1001 Fonts](https://www.1001fonts.com/micr-encoding-font.html#styles)**
+with reasonable [terms of use](https://www.1001fonts.com/licenses/general-font-usage-terms.html).
+That font is the standard expected for the US and is also used in some other countries.
 
 ## SYNOPSIS
 
