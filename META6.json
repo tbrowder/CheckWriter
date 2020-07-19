@@ -22,7 +22,7 @@
     "depends" : [
         "JSON::Hjson",
         "PDF::Font::Loader",
-        "PDF::Light",
+        "PDF::Lite",
 	"Text::Utils"
     ],
     "resources" : [

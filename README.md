@@ -45,4 +45,4 @@ requests, and suggestions are always welcome.
 
 Artistic 2.0. See [LICENSE](./LICENSE).
 
-Copyright (c) 2020 Thomas M. Browder, Jr. <<tom.browder@gmail.com>>
+&#x00A9; 2020, Thomas M. Browder, Jr. <<tom.browder@gmail.com>>
